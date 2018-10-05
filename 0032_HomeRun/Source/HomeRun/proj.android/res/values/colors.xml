@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_screen">#50DDDDDD</color>
+    
+    <!-- Basic colors -->
+    <color name="rm_white">#ffffffff</color>
+    <color name="rm_black">#ff000000</color>
+    <color name="rm_transparent">#77000000</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tomato">#CD4F39</color>
+
+    
+    <color name="st_pressed">#858283</color>
+    <color name="st_default">#ff000000</color>
+    <color name="filter_active">#324E84</color>
+    <color name="select_view_bg">#026CEA</color>
+    <color name="red">#FF0000</color>
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="yellow">#e1e500</color>
+    
+    <color name="list_selector">#ff0F0078</color>
+    <!-- 不使用 -->
+
+    <color name="color_clicked">#fbc31d</color>
+    <color name="color_focused">#f26b00</color>
+    <color name="black_transparent">#dd000000</color>
+    <color name="black_back_transparent">#88000000</color>
+    <color name="white_back_transparent">#88FFFFFF</color>
+    <color name="dark_green">#2e950e</color>
+    <color name="orange">#f5c700</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#003300</color>
+    <color name="green2">#005500</color>
+    <color name="green3">#4C9203</color>
+    <color name="cream">#E7E18F</color>
+    <color name="operater_text">#006666</color>
+    
+    <color name="color_processbar">#00C642</color>
+    <color name="color_text_ranking">#7DAB00</color>
+    <color name="color_text_point_play">#FBA21B</color>
+    <color name="color_text_point_result">#554D40</color>
+</resources>

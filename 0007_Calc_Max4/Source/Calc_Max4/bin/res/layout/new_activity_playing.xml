@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/n_common_bg">
+    
+	<!-- Header  -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/n_game_title" />
+		
+    </RelativeLayout>
+	<!--End Header  -->
+	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:background="@drawable/n_bg">
+        <!--Number of remaining question -->
+		
+        <TextView
+            android:id="@+id/textViewSceneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:text="1/20"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewRandomQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewSceneNumber"
+            android:layout_centerHorizontal="true"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <RelativeLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true">
+            <TextView
+	            android:id="@+id/textViewStringLoseWin"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:text=""
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/white" />
+            <TextView
+	            android:id="@+id/textViewResult"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_below="@+id/textViewStringLoseWin"
+	            android:text="Medium Text"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/yellow" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageViewRandomImageJanken"
+            android:layout_width="wrap_content"
+            android:layout_height="163dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bua_usd" />
+
+        <ImageView
+            android:id="@+id/imageViewPlayerJanken"
+            android:layout_width="wrap_content"
+            android:layout_height="163dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bao" />
+
+        <TextView
+            android:id="@+id/txt_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txt_opponent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:text="あなた"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_opponent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imageViewPlayerJanken"
+            android:text="@string/opponent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_height="57dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/banner">
+
+        <Button
+            android:id="@+id/buttonScissors"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@+id/buttonRock"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/btn_sic" />
+
+        <Button
+            android:id="@+id/buttonPaper"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:layout_toLeftOf="@+id/buttonRock"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/btn_paper" />
+
+        <Button
+            android:id="@+id/buttonRock"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_rock" />
+
+    </RelativeLayout>
+    <!-- Footer -->
+ 	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height" >
+
+			<TextView
+			    android:id="@+id/textViewTotalString"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_centerVertical="true"
+			    android:layout_marginLeft="5dp"
+			    android:text="@string/textview_countdown_title"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="@color/black" />
+
+			<RelativeLayout 
+			    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+           		android:layout_centerVertical="true"
+           		android:layout_toRightOf="@+id/textViewTotalString"
+			    android:layout_marginRight="50dp">
+			    <TextView
+		            android:id="@+id/textViewTimeCountdown"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:layout_marginRight="5dp"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+		            android:text="0" />
+			</RelativeLayout>
+
+			<TextView
+			    android:id="@+id/textViewPointString"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:layout_centerVertical="true"
+			    android:layout_marginRight="35dp"
+			    android:text="@string/textview_countdown_msec"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="@color/black" />
+
+    </RelativeLayout>
+</LinearLayout>

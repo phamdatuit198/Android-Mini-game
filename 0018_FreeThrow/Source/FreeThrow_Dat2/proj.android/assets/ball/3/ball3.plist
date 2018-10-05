@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>ball31.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 25}, {146, 146}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -6}</string>
+			<key>spriteSize</key>
+			<string>{146, 146}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{148, 298}, {146, 146}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ball32.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 25}, {146, 146}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -6}</string>
+			<key>spriteSize</key>
+			<string>{146, 146}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{294, 148}, {146, 146}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ball33.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 25}, {146, 146}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -6}</string>
+			<key>spriteSize</key>
+			<string>{146, 146}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{148, 0}, {146, 146}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ball34.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 25}, {146, 146}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -6}</string>
+			<key>spriteSize</key>
+			<string>{146, 146}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{296, 0}, {146, 146}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ball35.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 24}, {146, 148}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -6}</string>
+			<key>spriteSize</key>
+			<string>{146, 148}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 300}, {146, 148}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ball36.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 24}, {146, 148}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -6}</string>
+			<key>spriteSize</key>
+			<string>{146, 148}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 150}, {146, 148}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ball37.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 24}, {144, 148}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -6}</string>
+			<key>spriteSize</key>
+			<string>{144, 148}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{148, 148}, {144, 148}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ball38.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 24}, {146, 148}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -6}</string>
+			<key>spriteSize</key>
+			<string>{146, 148}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {146, 148}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ball39.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 24}, {146, 146}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -5}</string>
+			<key>spriteSize</key>
+			<string>{146, 146}</string>
+			<key>spriteSourceSize</key>
+			<string>{178, 184}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{296, 296}, {146, 146}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.6.0</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{512, 512}</string>
+		<key>name</key>
+		<string>Untitled</string>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>ball3</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>ball3</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

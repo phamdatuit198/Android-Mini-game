@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	
+    
+    <dimen name="header_height">44dp</dimen>
+      
+    <dimen name="footer_height">47dp</dimen>
+    <dimen name="footer_line_width">1dp</dimen>
+    
+    <!-- DATPV -->
+    <dimen name="progressbar1_margin_top">12dp</dimen>
+    <dimen name="textview_size_playgame">18dp</dimen>
+    <dimen name="current_round_margin_left">50dp</dimen>
+    <dimen name="play_game_progressbar_width">158dp</dimen>
+    <dimen name="play_game_progressbar2_margin_left">10dp</dimen>
+    <dimen name="play_game_progressbar2_margin_top">12dp</dimen>
+    <dimen name="play_game_num_size">45dp</dimen>
+    <dimen name="play_game_compare_number_margin_top">30dp</dimen>
+    <dimen name="play_game_num_margin_left">10dp</dimen>
+   	<dimen name="play_game_num_three">50dp</dimen>
+    <dimen name="play_game_score_result_margin_top">10dp</dimen>
+    <dimen name="play_game_title_margin_left">10dp</dimen>
+    <dimen name="play_game_title_margin_right">15dp</dimen>
+    <dimen name="play_game_title1_margin_top">65dp</dimen>
+    <dimen name="play_game_title2_margin_top">3dp</dimen>
+    <dimen name="play_game_progressbar2_width">165dp</dimen>
+    <dimen name="play_game_progressbar2_height">18.5dp</dimen>
+    <dimen name="textview_title_size_playgame">15dp</dimen>
+    <dimen name="result_score_margin_top">145dp</dimen>
+    <dimen name="result_score_margin_right">50dp</dimen>
+    <dimen name="play_game_rlplaying_height">368dp</dimen>
+    <dimen name="play_game_score_result">35dp</dimen>
+</resources>

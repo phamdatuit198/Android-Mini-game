@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/n_common_bg"
+    android:orientation="vertical" >
+	
+    
+    <net.nend.android.NendAdView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/nend"
+        NendApiKey="b6078f11d8e2776ed56aee23029b0f096914cfaa"
+        NendSpotId="49047"
+        android:layout_gravity="top|center"
+        />    
+     <include
+     android:id="@+id/top_menu_layout"
+     layout="@layout/header"
+     android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/rl_playing"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/play_game_rlplaying_height"
+        android:layout_centerInParent="true"
+        android:background="@drawable/play_background" >
+
+        <RelativeLayout
+            android:id="@+id/rl_progressbar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/progressbar1_margin_top"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                android:id="@+id/current_round"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/current_round_margin_left"
+                android:text="0"
+                android:textColor="@color/color_processbar"
+                android:textSize="@dimen/textview_size_playgame"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/current_round_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/current_round"
+                
+                android:text="0"
+                android:textColor="@color/color_processbar"
+                android:textSize="@dimen/textview_size_playgame"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/rl_progressbar2"
+            android:layout_width="@dimen/play_game_progressbar2_width"
+            android:layout_height="@dimen/play_game_progressbar2_height"
+            android:layout_marginLeft="@dimen/play_game_progressbar2_margin_left"
+            android:layout_marginTop="@dimen/play_game_progressbar2_margin_top"
+            android:layout_toRightOf="@+id/rl_progressbar1"
+            android:background="@drawable/loading_bar_border">
+
+            <ProgressBar
+                android:id="@+id/progressbar_Horizontal"
+                style="@style/CustomProgressBar"
+                android:layout_width="@dimen/play_game_progressbar_width"
+                android:layout_height="wrap_content" 
+                android:layout_gravity="center"
+                />
+
+            
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_score_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_compare_number"
+            android:layout_marginTop="@dimen/play_game_score_result_margin_top"
+            android:gravity="center_vertical|center_horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_score_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="00"
+                android:textSize="@dimen/play_game_score_result"
+                android:textStyle="bold"
+                android:textColor="@color/color_text_point_play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_choose_operator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_play_2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:visibility="visible" >
+
+            <Button
+                android:id="@+id/bt_choose_greater"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/play_btn_01"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_choose_equal"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/bt_choose_greater"
+                android:background="@drawable/play_btn_02" />
+
+            <Button
+                android:id="@+id/bt_choose_lesser"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_toRightOf="@+id/bt_choose_equal"
+                android:background="@drawable/play_btn_03" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_title_play_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_compare_number"
+            android:layout_marginLeft="@dimen/play_game_title_margin_left"
+            android:layout_marginRight="@dimen/play_game_title_margin_right"
+            android:layout_marginTop="@dimen/play_game_title1_margin_top"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/title_play_1"
+            android:textSize="@dimen/textview_title_size_playgame"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title_play_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_play_1"
+            android:layout_marginLeft="@dimen/play_game_title_margin_left"
+            android:layout_marginRight="@dimen/play_game_title_margin_right"
+            android:layout_marginTop="@dimen/play_game_title2_margin_top"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/title_play_2"
+            android:textSize="@dimen/textview_title_size_playgame"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rl_compare_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rl_progressbar2"
+            android:layout_marginTop="@dimen/play_game_compare_number_margin_top"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_num_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/play_game_num_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_calculations_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/play_game_num_margin_left"
+                android:layout_toRightOf="@+id/tv_num_one"
+                android:gravity="center"
+                android:text="+"
+                android:textSize="@dimen/play_game_num_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_num_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/play_game_num_margin_left"
+                android:layout_toRightOf="@+id/tv_calculations_one"
+           
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/play_game_num_size"
+                android:textStyle="bold" />
+
+           
+
+            <TextView
+                android:id="@+id/tv_num_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_num_two"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/play_game_num_three"
+                android:text="0"
+                android:textSize="@dimen/play_game_num_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_calculations_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/play_game_num_margin_left"
+                android:layout_toRightOf="@+id/tv_num_three"
+                android:gravity="center"
+                android:text="*"
+                android:textSize="@dimen/play_game_num_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_num_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/play_game_num_margin_left"
+                android:layout_toRightOf="@+id/tv_calculations_two"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/play_game_num_size"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+ <include
+     android:id="@+id/bottom_menu_layout"
+     
+     layout="@layout/footer" />
+
+</RelativeLayout>

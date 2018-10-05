@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <TextView
+        android:id="@+id/tv_manual_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manual_string_line1"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_manual_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_manual_line1"
+        android:text="@string/manual_string_line2"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_manual_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_manual_line2"
+        android:text="@string/manual_string_line3"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_manual_line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_manual_line3"
+        android:text="@string/manual_string_line4"
+        android:textColor="@color/black"
+        />
+    
+    <TextView
+        android:id="@+id/tv_manual_line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_manual_line4"
+        android:text="@string/manual_string_line5"
+        android:textColor="@color/black"
+         />
+    <TextView
+        android:id="@+id/tv_manual_line6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_manual_line5"
+        android:text="@string/manual_string_line6"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv_manual_line7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_manual_line6"
+        android:text="@string/manual_string_line7"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

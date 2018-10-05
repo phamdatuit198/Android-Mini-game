@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.1201829988">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.1201829988" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="0.1201829988" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.1201829988." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.95616484" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.95616484.262429995" name=""/>
+							<builder arguments="${workspace_loc:/SplashActivity}/build_native.sh NDK_DEBUG=1 V=1" command="bash" id="org.eclipse.cdt.build.core.settings.default.builder.2065508395" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1428222813" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1159762181" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1788411185" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.792582537" name="UPC" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1544869456" languageId="org.eclipse.cdt.core.parser.upc.upc" languageName="UPC" sourceContentType="org.eclipse.cdt.core.parser.upc.upcSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1854443091" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1886187071" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/android-ndk-r8e/platforms/android-14/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/android-ndk-r8e/sources/android/cpufeatures"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/android-ndk-r8e/platforms/android-9/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/cocos2dx/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/cocos2dx/kazmath/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/cocos2dx/platform/android"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/CocosDenshion/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/extensions"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/extensions/CCBReader"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/extensions/GUI/CCControlExtension"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/extensions/GUI/CCScrollView"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/extensions/network"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/extensions/LocalStorage"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/cocos2dx/platform/third_party/android/prebuilt/libjpeg/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/cocos2dx/platform/third_party/android/prebuilt/libpng/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/cocos2dx/platform/third_party/android/prebuilt/libtiff/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/cocos2dx/platform/third_party/android/prebuilt/libwebp/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/cocos2dx/platform/third_party/android/prebuilt/libcurl/include"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/external"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/external/chipmunk/include/chipmunk"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/FreeThrow_Dat2/proj.android/jni"/>
+									<listOptionValue builtIn="false" value="/Volumes/DATA/GAME/Other_07/cocos2d-2.1beta3-x-2.1.1/FreeThrow_Dat2/Classes"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1894810455" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.882301880" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1898370779" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Resources|Classes" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Classes"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Resources"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="FreeThrow_Dat2.null.1653799622" name="FreeThrow_Dat2"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.1201829988">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/FreeThrow_Dat2"/>
+		</configuration>
+	</storageModule>
+</cproject>
