@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="header_height">44dp</dimen>
+    <dimen name="footer_height">47dp</dimen>
+    <dimen name="footer_line_width">1dp</dimen>
+    <dimen name="bottom_adv_height">60dp</dimen>
+    <dimen name="result_title_margin_top">160dp</dimen>
+    <dimen name="result_margin_bottom">100dp</dimen>
+    <dimen name="result_text_margin_top">40dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+
+</resources>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_frame"
+ >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/high_score_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/one" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/define"
+                android:layout_toRightOf="@+id/number"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                 />
+            <ImageView
+                android:id="@+id/define"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="@string/score_define" />
+        </RelativeLayout>
+        <include layout="@drawable/full_line"/>
+        <RelativeLayout
+            android:id="@+id/high_score_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/two" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/define"
+                android:layout_toRightOf="@+id/number"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                 />
+
+            <ImageView
+                android:id="@+id/define"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="@string/score_define" />
+        </RelativeLayout>
+        <include layout="@drawable/full_line"/>
+        <RelativeLayout
+            android:id="@+id/high_score_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/three" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/define"
+                android:layout_toRightOf="@+id/number"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                 />
+
+            <ImageView
+                android:id="@+id/define"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="@string/score_define" />
+        </RelativeLayout>
+        <include layout="@drawable/full_line"/>
+        <RelativeLayout
+            android:id="@+id/high_score_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/four" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/define"
+                android:layout_toRightOf="@+id/number"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                 />
+
+            <ImageView
+                android:id="@+id/define"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="@string/score_define" />
+        </RelativeLayout>
+        <include layout="@drawable/full_line"/>
+        <RelativeLayout
+            android:id="@+id/high_score_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/five" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/define"
+                android:layout_toRightOf="@+id/number"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                 />
+
+            <ImageView
+                android:id="@+id/define"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="@string/score_define" />
+        </RelativeLayout>
+        <include layout="@drawable/full_line"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_screen">#50DDDDDD</color>
+    
+    <!-- Basic colors -->
+    <color name="rm_white">#ffffffff</color>
+    <color name="rm_black">#ff000000</color>
+    <color name="rm_transparent">#77000000</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tomato">#CD4F39</color>
+
+    
+    <color name="st_pressed">#858283</color>
+    <color name="st_default">#ff000000</color>
+    <color name="filter_active">#324E84</color>
+    <color name="select_view_bg">#026CEA</color>
+    <color name="red">#FF0000</color>
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="yellow">#e1e500</color>
+</resources>

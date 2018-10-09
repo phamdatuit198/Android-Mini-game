@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result_background" >
+
+    <ImageView
+        android:id="@+id/v_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/result_title_margin_top"
+        android:background="@drawable/result_title" />
+
+    <TextView
+        android:id="@+id/tv_text_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_title"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="@dimen/result_text_margin_top"
+        android:text="@string/total_text"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_text_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_text_total"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/v_title"
+        android:layout_marginRight="70dp"
+        android:text="@string/point"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_point_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_text_total"
+        android:layout_below="@id/v_title"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/tv_text_point"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/v_rank_in"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_text_total"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/result_rankin_text"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/result_margin_bottom" >
+
+        <View
+            android:id="@+id/v_chickens"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:background="@drawable/chickens" />
+
+        <Button
+            android:id="@+id/btn_replay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/v_chickens"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/v_chickens"
+            android:background="@drawable/result_btn_replay_bg" />
+
+        <Button
+            android:id="@+id/btn_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/v_chickens"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/btn_replay"
+            android:background="@drawable/result_btn_top_bg" />
+
+        <Button
+            android:id="@+id/btn_vitalify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/v_chickens"
+            android:layout_alignLeft="@id/btn_replay"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/result_btn_vitalify_bg" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/ads"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_adv_height"
+        android:layout_alignParentBottom="true"
+        layout="@layout/ads_view" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="header_height">44dp</dimen>
+    <dimen name="footer_height">47dp</dimen>
+    <dimen name="footer_line_width">1dp</dimen>
+    <dimen name="bottom_adv_height">60dp</dimen>
+
+</resources>
